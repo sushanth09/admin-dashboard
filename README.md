@@ -46,56 +46,6 @@ npm run build
 npm run preview
 ```
 
-## Deployment
-
-### Deploy to Netlify
-
-1. **Option 1: Netlify CLI**
-   ```bash
-   npm install -g netlify-cli
-   netlify login
-   netlify deploy
-   netlify deploy --prod
-   ```
-
-2. **Option 2: Git Integration**
-   - Push your code to GitHub/GitLab/Bitbucket
-   - Go to [Netlify](https://www.netlify.com/)
-   - Click "New site from Git"
-   - Connect your repository
-   - Build settings:
-     - Build command: `npm run build`
-     - Publish directory: `dist`
-   - Click "Deploy site"
-
-3. **Option 3: Drag & Drop**
-   - Run `npm run build` locally
-   - Drag the `dist` folder to [Netlify Drop](https://app.netlify.com/drop)
-
-### Deploy to Vercel
-
-1. **Option 1: Vercel CLI**
-   ```bash
-   npm install -g vercel
-   vercel login
-   vercel
-   vercel --prod
-   ```
-
-2. **Option 2: Git Integration**
-   - Push your code to GitHub/GitLab/Bitbucket
-   - Go to [Vercel](https://vercel.com/)
-   - Click "New Project"
-   - Import your repository
-   - Vercel will auto-detect Vite settings
-   - Click "Deploy"
-
-3. **Option 3: Vercel Dashboard**
-   - Run `npm run build` locally
-   - Go to Vercel dashboard
-   - Click "Add New Project"
-   - Upload the `dist` folder
-
 ## Project Structure
 
 ```
